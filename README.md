@@ -656,6 +656,7 @@ Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (
 ----
 
 | Hexadecimal Numerals | Hexadecimal Pronunciation | Decimal Equivalent |
+| --- | ----- | ----- |
 | 0 | Zero | 0 |
 | A | A | 10 |
 | F | F | 15 |
