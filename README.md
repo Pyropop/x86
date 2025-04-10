@@ -1,7 +1,6 @@
 ## Assembly Instructions Guide
 
-Author: **7etsuo**  
-- https://x.com/7etsuo
+Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (I presume the fork may be enough, but yeah)
 
 ## Contents
 1. [Abbreviations](#abbreviations)
@@ -615,3 +614,57 @@ Author: **7etsuo**
 - Usage: XOR dest,src
 - Modifies flags: CF OF PF SF ZF (AF undefined)
 - Performs a logical exclusive OR of the two operands replacing the destination with the result.
+
+## Decimals to different bases:
+
+### Octals:
+8^0 = 1 | 8^1 = 8 | 8^2 = 64 | 8^3 = 512 | 8^4 = 4096 | 8^5 = 32768 | 8^6 = 262144
+
+-----
+
+| Octal Numerals | Octal Pronunciation | Decimal Equivalent |
+| ---- | ---- | ---- |
+| 0 | Zero | 0 |
+| 1 | One | 1 |
+| 2 | Two | 2 |
+| 3 | Three | 3 |
+| 7 | Seven | 7 |
+| 10 | Ten | 8 |
+| 12 | Twelve | 10 |
+| 17 | Seventeen | 15 |
+| 20 | Twenty | 16 |
+| 27 | Twenty-Seven | 23 |
+| 30 | Thirty | 24 |
+| 100 | Hundred | 64 |
+| 166 | Hundred-Sixty-Six | 100 |
+| 200 | Twohundred | 128 |
+| 300 | Threehundred | 192 |
+| 310 | Threehundred-ten | 200 |
+| 400 | Fourhundred | 256 |
+
+### Hexadecimals:
+
+1H = 16^0 = 1 x 16 = 10H
+10H = 16^1 = 16 x 16 = 100H
+100H = 16^2 = 256 x 16 = 1000H
+1000H = 16^3 = 4096 x 16 = 10000H
+10000H = 16^4 = 65536 x 16 = 100000H
+100000H = 16^5 = 1048576 x 16 = 1000000H
+1000000H = 16^6 = 16777216 x 16 = 10000000H
+10000000H = 16^7 = 268435456 x 16 = 100000000H
+
+----
+
+| Hexadecimal Numerals | Hexadecimal Pronunciation | Decimal Equivalent |
+| 0 | Zero | 0 |
+| A | A | 10 |
+| F | F | 15 |
+| 10 | Ten (One-oh) | 16 |
+| 14 | One-four | 20 |
+| 1E | One-E | 30 |
+| 20 | Twenty (Two-oh) | 32 |
+| 0 | Zero | 0 |
+| 0 | Zero | 0 |
+| 0 | Zero | 0 |
+| 0 | Zero | 0 |
+| 0 | Zero | 0 |
