@@ -1,0 +1,90 @@
+# Letter memory
+# 
+cards$[] = strchars "AABBDDEEFFGGHHII"
+len open[] 16
+background 000
+textsize 16
+# 
+subr draw_square
+   x = (ind - 1) mod 4 * 24 + 3
+   y = (ind - 1) div 4 * 24 + 3
+   move x y
+   rect 22 22
+.
+subr cover_card
+   open[ind] = 0
+   color 353
+   draw_square
+.
+subr show_card
+   open[ind] = 1
+   color 575
+   draw_square
+   move x + 5 y + 5
+   color 000
+   text cards$[ind]
+.
+subr init
+   opencards = 0
+   time0 = systime
+   clear
+   # shuffle and close cards
+   for ind = 1 to 16
+      cover_card
+      r = random ind
+      swap cards$[r] cards$[ind]
+   .
+.
+subr open
+   show_card
+   if card1 = 0
+      # first card
+      card1 = ind
+   else
+      # second card
+      card2 = ind
+      if cards$[card2] <> cards$[card1]
+         # cards are covered after one second
+         timer 1
+      else
+         # two matching cards found
+         card1 = 0
+         card2 = 0
+         opencards += 2
+         if opencards = 16
+            # done
+            clear
+            move 5 50
+            color 575
+            text "Time: " & floor (systime - time0)
+         .
+      .
+   .
+.
+on timer
+   # cover the two uncovered cards
+   ind = card1
+   cover_card
+   ind = card2
+   cover_card
+   card1 = 0
+   card2 = 0
+.
+subr search_card
+   c = mouse_x div 25
+   r = mouse_y div 25
+   ind = r * 4 + c + 1
+   if open[ind] = 0
+      open
+   .
+.
+on mouse_down
+   if opencards = 16
+      # new game
+      init
+   elif card2 = 0
+      search_card
+   .
+.
+init
+
