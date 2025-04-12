@@ -1,7 +1,7 @@
 
-## Decimals to different bases:
+# Decimals to different bases:
 
-### Octals:
+## Octals:
 | Various powers of octal: | 8^4 = 16^3 | | | | | |
 |--- | -- | --- | ---- |--- |---- |--- |
 | 8^0 = 1 | 8^1 = 8 | 8^2 = 64 | 8^3 = 512 | 8^4 = 4096 | 8^5 = 32768 | 8^6 = 262144 |
@@ -29,7 +29,7 @@
 | 400 | Fourhundred | 256 |
 
 ----
-### Hexadecimals:
+## Hexadecimals:
 
 1H = 16^0 = 1 x 16 = 10H
 10H = 16^1 = 16 x 16 = 100H
@@ -69,7 +69,7 @@
 | Result: | 21405348H | Result: | 1725886 |
 
 ----
-Binary:
+## Binary:
 | Binary | Power of 2 | Decimal |
 |----|----|---|
 | 1 | 2^0 | 1 |
