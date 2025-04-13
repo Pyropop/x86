@@ -1,7 +1,12 @@
+Navigation
+1.  [Octal](#octals)
+2.  [Hexadecimal](#hexadecimals)
+3.  [Binary](#binary)
+4.  [Binary to Hexadecimal](#binary-to-hexa)
 
 # Decimals to different bases:
 
-## Octals:
+## Octals <a name="octals"/>:
 | Various powers of octal: | 8^4 = 16^3 | | | | | |
 |--- | -- | --- | ---- |--- |---- |--- |
 | 8^0 = 1 | 8^1 = 8 | 8^2 = 64 | 8^3 = 512 | 8^4 = 4096 | 8^5 = 32768 | 8^6 = 262144 |
@@ -29,7 +34,7 @@
 | 400 | Fourhundred | 256 |
 
 ----
-## Hexadecimals:
+## Hexadecimals<a name="hexadecimals"/>:
 
 1H = 16^0 = 1 x 16 = 10H
 10H = 16^1 = 16 x 16 = 100H
@@ -69,7 +74,7 @@
 | Result: | 21405348H | Result: | 1725886 |
 
 ----
-## Binary:
+## Binary <a name="binary"/>:
 | Binary | Power of 2 | Decimal |
 |----|----|---|
 | 1 | 2^0 | 1 |
@@ -108,7 +113,7 @@
 | 1000000000000000000000000000000000000000000000000000000000000000000 | 2^64 | 18,446,073,709,551,616 |
 
 ----
-## Binary to Hexadecimal:
+## Binary to Hexadecimal <a name="binary-to-hexa"/>:
 | Binary| Hexa| Binary| Hexa| Binary| Hexa| Binary| Hexa|
 | ------| --- | ----- | --- | ----- | --- | ----- | --- |
 | 0000B | 00H | 0100B | 04H | 1000B | 08H | 1100B | 0CH | 
