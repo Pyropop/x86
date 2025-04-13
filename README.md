@@ -1,4 +1,4 @@
-## Assembly Instructions Guid e<a name="top"/>
+## Assembly Instructions Guide<a name="top"/>
 
 Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (I presume the fork may be enough, but yeah)
 
