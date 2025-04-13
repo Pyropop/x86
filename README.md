@@ -11,6 +11,7 @@ Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (
 3. [Jxx - Jump Instructions Table](#jxx-jump-instructions-table)
    - [Jump Condition Meanings for Assembly](#jump-condition-meanings-for-assembly)
 4. [Instructions](#instructions)
+5. [Bases](Bases.md)
 
 ### 1. Abbreviations <a name="abbreviations"></a>
 #### Meaning of Assembly Abbreviations
