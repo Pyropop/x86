@@ -12,6 +12,7 @@ Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (
    - [Jump Condition Meanings for Assembly](#jump-condition-meanings-for-assembly)
 4. [Instructions](#instructions)
 5. [Bases](Bases.md)
+6. [Bit Values](bitVals.md)
 
 ### 1. Abbreviations <a name="abbreviations"></a>
 #### Meaning of Assembly Abbreviations
