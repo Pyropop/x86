@@ -3,6 +3,7 @@ Navigation
 2.  [Hexadecimal](#hexadecimals)
 3.  [Binary](#binary)
 4.  [Binary to Hexadecimal](#binary-to-hexa)
+5.  [README](README.md)
 
 # Decimals to different bases:
 
