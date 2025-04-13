@@ -1,4 +1,4 @@
-## Assembly Instructions Guide
+## Assembly Instructions Guid e<a name="top"/>
 
 Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (I presume the fork may be enough, but yeah)
 
@@ -616,3 +616,4 @@ Author: **Pyropop** original author of assembly and linux syscalls: **7etsuo** (
 - Modifies flags: CF OF PF SF ZF (AF undefined)
 - Performs a logical exclusive OR of the two operands replacing the destination with the result.
 
+[Got to Top](#top)
